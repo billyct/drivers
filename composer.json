@@ -13,6 +13,11 @@
             "role": "Developer"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Tinkerwell\\": "src/"
+        }
+    },
     "require": {
         "typo3/phar-stream-wrapper": "*"
     }

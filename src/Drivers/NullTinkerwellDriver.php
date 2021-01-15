@@ -1,4 +1,5 @@
 <?php
+namespace Tinkerwell\Drivers;
 
 class NullTinkerwellDriver extends TinkerwellDriver
 {
