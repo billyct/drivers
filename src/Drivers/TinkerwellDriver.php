@@ -45,19 +45,20 @@ abstract class TinkerwellDriver
         $drivers = array_merge($drivers, static::driversIn($projectPath . DIRECTORY_SEPARATOR . '.tinkerwell'));
 
         $drivers = array_merge($drivers, [
-            'InfectionTinkerwellDriver',
-            'StatamicTinkerwellDriver',
-            'KirbyTinkerwellDriver',
-            'MoodleTinkerwellDriver',
-            'LaravelTinkerwellDriver',
-            'CraftTinkerwellDriver',
-            'Magento2TinkerwellDriver',
-            'LumenTinkerwellDriver',
-            'PrestaShopTinkerwellDriver',
-            'OctoberCMSTinkerwellDriver',
-            'SymfonyTinkerwellDriver',
-            'Typo3TinkerwellDriver',
-            'WordpressTinkerwellDriver',
+            InfectionTinkerwellDriver::class,
+            InfectionTinkerwellDriver::class,
+            StatamicTinkerwellDriver::class,
+            KirbyTinkerwellDriver::class,
+            MoodleTinkerwellDriver::class,
+            LaravelTinkerwellDriver::class,
+            CraftTinkerwellDriver::class,
+            Magento2TinkerwellDriver::class,
+            LumenTinkerwellDriver::class,
+            PrestaShopTinkerwellDriver::class,
+            OctoberCMSTinkerwellDriver::class,
+            SymfonyTinkerwellDriver::class,
+            Typo3TinkerwellDriver::class,
+            WordpressTinkerwellDriver::class,
         ]);
 
         foreach ($drivers as $driver) {
