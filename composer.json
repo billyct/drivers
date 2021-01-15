@@ -20,5 +20,8 @@
     },
     "require": {
         "typo3/phar-stream-wrapper": "*"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.0"
     }
 }
